@@ -1,0 +1,10 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+#错误请求
+ErrorDocument 400 /public/400.html
+#页面未找到
+ErrorDocument 404 /public/404.html
+#请求超时
+ErrorDocument 408 /public/408.html
+</IfModule>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>物联科技-简易跳转页面</title>
+	<style>
+		.body{
+			width: 100%;
+			height: 700px;
+			display: flex;
+			flex-flow: column nowrap;
+			justify-content: space-around;
+		}
+		.in-bo-body{
+			width: 100%;
+			height: 150px;
+			display: flex;
+			flex-flow: row nowrap;
+			justify-content: center;
+			align-items: center;
+		}
+		a{
+			text-decoration: none;
+		}
+		.in-im-image{
+			width: 300px;
+			height: 300px;
+			margin:0 auto;
+		}
+		.in-im-image div{
+			width: 100px;
+			height: 100px;
+			display: inline-block;
+		}
+		#heart {
+    		position: relative;
+    		width: 100px;
+    		height: 90px;
+		}
+		#heart:before,
+		#heart:after {
+		    position: absolute;
+		    content: "";
+		    left: 50px;
+		    top: 0;
+		    width: 50px;
+		    height: 80px;
+		    background: red;
+		    -moz-border-radius: 50px 50px 0 0;
+		    border-radius: 50px 50px 0 0;
+		    -webkit-transform: rotate(-45deg);
+		       -moz-transform: rotate(-45deg);
+		        -ms-transform: rotate(-45deg);
+		         -o-transform: rotate(-45deg);
+		            transform: rotate(-45deg);
+		    -webkit-transform-origin: 0 100%;
+		       -moz-transform-origin: 0 100%;
+		        -ms-transform-origin: 0 100%;
+		         -o-transform-origin: 0 100%;
+		            transform-origin: 0 100%;
+		}
+		#heart:after {
+		    left: 0;
+		    -webkit-transform: rotate(45deg);
+		       -moz-transform: rotate(45deg);
+		        -ms-transform: rotate(45deg);
+		         -o-transform: rotate(45deg);
+		            transform: rotate(45deg);
+		    -webkit-transform-origin: 100% 100%;
+		       -moz-transform-origin: 100% 100%;
+		        -ms-transform-origin: 100% 100%;
+		         -o-transform-origin: 100% 100%;
+		            transform-origin :100% 100%;
+		}               
+		.in-fo-footer{
+			width: 100%;
+			height: 150px;
+			display: flex;
+			flex-flow: column nowrap;
+			justify-content: space-around;
+			align-items: center;
+		}
+	</style>
+</head>
+<body>
+	<div class="body">
+	<div class="in-bo-body">
+		<a href="https://ideacom.cn/resume/application/wxUserAdmin/index.php/index/getLoginPage">进入管理面板</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="http://ideacom.cn">进入首页</a>
+	</div>
+	<div class="in-im-image">
+		<div id="heart"></div>
+	</div>
+	<div class="in-fo-footer">
+			<h3>提示：本网站属于个人类型网站，所有功能和数据仅为本人研究和学习开发之用，所有数据均为虚拟，切勿相信与传播。</h3>
+			<h3>如有疑问或学习交流还请联系作者邮箱：lichao_works@163.com</h3>
+			网站备案号：<a href="http://gdcainfo.miitbeian.gov.cn/publish/query/indexFirst.action">粤ICP备18005459号-1</a>
+	</div>
+	</div>
+</body>
+</html>

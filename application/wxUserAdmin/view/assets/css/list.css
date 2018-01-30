@@ -1,0 +1,102 @@
+/*
+* @Author: lichao
+* @Date:   2017-12-08 21:36:48
+* @Last Modified by:   lichao
+* @Last Modified time: 2018-01-17 14:16:47
+*/
+#container{
+	padding: 0 10px;
+}
+.table-title{
+	width: 150px;
+	height: 40px;
+	float: left;
+	line-height: 40px;
+	background: #EAEAEA;
+	border-top: 1px solid rgba(0,0,0,0.1);
+	/*padding: 10px 80px;*/
+}
+#title-bar{
+	width: 98%;
+	height: 40px;
+	line-height: 40px;
+	padding: 0 1%;
+	background: #EAEAEA;
+	border-top: 1px solid rgba(0,0,0,0.1);
+	border-left: 1px solid rgba(0,0,0,0.1);
+	border-right: 1px solid rgba(0,0,0,0.1);
+}
+#title-bar ul{
+	float: right;
+	display: inline-block;
+}
+#title-bar li{
+	margin: 0 0 0 20px;
+	display: inline-block;
+}
+#content{
+	width: 100%;
+}
+#content table{
+	width: 100%;
+	border: 1px solid rgba(0,0,0,0.2);
+}
+#content-title{/*标题行*/
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	border: 1px solid rgba(0,0,0,0.2);
+}
+.content-title-cols{/*标题列*/
+	border: 1px solid rgba(0,0,0,0.2);
+}
+.content-rows{/*内容行*/
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	border: 1px solid rgba(0,0,0,0.2);
+}
+.content-cols{/*内容列*/
+	border: 1px solid rgba(0,0,0,0.2);
+}
+#select{ /*选择按钮*/
+	width: 15px;
+	height: 15px;
+	border: 1px solid rgba(0,0,0,0.2);
+}
+#footer-bar{
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	background: #EAEAEA;
+	border-bottom: 1px solid rgba(0,0,0,0.1);
+	border-left: 1px solid rgba(0,0,0,0.1);
+	border-right: 1px solid rgba(0,0,0,0.1);
+}
+#title-bar form{
+	width: 220px;
+	display: inline-block;
+}
+#searchtext{
+	width: 150px;
+	height: 25px;
+	border: 1px solid rgba(0,0,0,0.2);
+}
+#searchbtn{
+	width: 60px;
+	height: 25px;
+	cursor:pointer;
+	color: #555555;
+	border: 1px solid rgba(0,0,0,0.2);
+	display: inline-block;
+}
+.barmenu{
+	width: 100px;
+	text-align: center;
+	display: inline-block;
+}
+.barmenu:hover{
+	background: #DADADA;
+}
+
+
